@@ -1,0 +1,22 @@
+{
+  "name": "@chile-gob-toolkit/pisee",
+  "version": "0.1.0",
+  "description": "Cliente para un Nodo PISEE 2 local y validación de su config.json.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}

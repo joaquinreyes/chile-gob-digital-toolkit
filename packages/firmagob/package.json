@@ -1,0 +1,22 @@
+{
+  "name": "@chile-gob-toolkit/firmagob",
+  "version": "0.1.0",
+  "description": "Cliente para la API de firma de FirmaGob (Firma Electrónica Avanzada del Estado).",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}
